@@ -1,0 +1,23 @@
+img {
+  width: 100%;
+  height: auto;
+}
+.article-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.article-image {
+  display: flex;
+}
+
+@media screen and (min-width: 576px) {
+  .article-images {
+    flex-direction: row;
+  }
+  .article-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}

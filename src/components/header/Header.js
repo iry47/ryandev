@@ -91,6 +91,17 @@ function Header(props) {
             </li>
             <li>
               <NavLink
+                className="trvl"
+                to="/travel"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                Travel
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 className="ec"
                 to="/education"
                 tag={Link}

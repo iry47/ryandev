@@ -1,0 +1,35 @@
+.travels-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.heading-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading-img-div {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+}
+
+.heading-div p {
+  padding: 0 20px;
+  margin-left: 0;
+}
+
+@media (max-width: 1380px) {
+  .travels-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .travels-header {
+    font-size: 30px;
+  }
+}

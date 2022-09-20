@@ -1,0 +1,32 @@
+.blog-header {
+  font-size: 40px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  max-height: 22vh;
+}
+.blog-header .logo_img {
+  width: 100%;
+  height: auto;
+}
+
+.blogs-body-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1380px) {
+  .blogs-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blogs-body-div {
+    flex-direction: column;
+  }
+  .blogs-header {
+    font-size: 30px;
+  }
+}

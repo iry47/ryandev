@@ -5,6 +5,8 @@ import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
+import { useHistory } from "react-router-dom";
+import { style } from "glamor";
 // import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
@@ -17,6 +19,13 @@ function GetSkillSvg(props) {
 
 function SkillSection(props) {
   const theme = props.theme;
+  const history = useHistory();
+  const styles = style({
+    backgroundColor: `${theme.accentBright}`,
+    ":hover": {
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
+    },
+  });
   return (
     <div>
       {skills.data.map((skill, index) => {
@@ -51,6 +60,17 @@ function SkillSection(props) {
                       );
                     })}
                   </div>
+                  <div className="portfolio-repo-btn-div">
+                    <button
+                      {...styles}
+                      className="button"
+                      onClick={() => {
+                        history.push(`${skill.link}`);
+                      }}
+                    >
+                      Read More
+                    </button>
+                  </div>
                 </Fade>
               </div>
             </div>
@@ -71,14 +91,27 @@ function SkillSection(props) {
                   <div>
                     {skill.skills.map((skillSentence) => {
                       return (
-                        <p
-                          className="subTitle skills-text"
-                          style={{ color: theme.secondaryText }}
-                        >
-                          {skillSentence}
-                        </p>
+                        <div>
+                          <p
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            {skillSentence}
+                          </p>
+                        </div>
                       );
                     })}
+                    <div className="portfolio-repo-btn-div">
+                      <button
+                        {...styles}
+                        className="button"
+                        onClick={() => {
+                          history.push(`${skill.link}`);
+                        }}
+                      >
+                        Read More
+                      </button>
+                    </div>
                   </div>
                 </Fade>
               </div>

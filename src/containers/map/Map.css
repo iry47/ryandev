@@ -1,0 +1,9 @@
+.leaflet-popup-close-button {
+  display: none;
+}
+
+.map-body-div {
+  /* width: 100vw; */
+  /* height: 80vh; */
+  /* margin-left: -10%; */
+}

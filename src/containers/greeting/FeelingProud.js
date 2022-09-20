@@ -8,10 +8,10 @@ function FeelingProud(props) {
   return (
     <img
       className="profile-pic"
-      src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+      src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
       alt=""
     />
-  )
+  );
   return (
     <svg
       version="1.1"
