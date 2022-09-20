@@ -11,6 +11,7 @@ export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
 
+  // hover style
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {

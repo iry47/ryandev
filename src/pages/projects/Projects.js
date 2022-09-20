@@ -11,6 +11,7 @@ import { style } from "glamor";
 function Projects(props) {
   const theme = props.theme;
 
+  // project card hover style
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {

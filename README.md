@@ -1,6 +1,7 @@
 # Portfolio
 
 ## Demo
+
 <p align="center">
   <img src="/images/portfolio1.gif")
 </p>
@@ -11,7 +12,6 @@
 - Run `npm i`
 - Check it out using `npm start`
 
-
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
@@ -20,9 +20,11 @@
 - [baseui](https://github.com/uber/baseweb)
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
+- [OpenStreetMaps](https://www.openstreetmap.org/)
 
 ## illustrations 🍥
 
+- [Icon-sets](https://icon-sets.iconify.design/)
 - [UnDraw](https://undraw.co/illustrations)
 
 ## References

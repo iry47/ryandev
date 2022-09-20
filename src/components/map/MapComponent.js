@@ -10,8 +10,17 @@ import useGeoLocation from "./useGeoLocation";
 
 function MapComponent(props) {
   const markers = props.markers;
-  const [expand, setExpand] = useState(false);
   const [locate, setLocate] = useState([]);
+
+  //expand map to full screen or shrink to default size
+  const [expand, setExpand] = useState(false);
+  useEffect(() => {
+    let mapDiv = document.querySelector("#mapDiv");
+    if (expand == true) mapDiv.classList.add("full");
+    else mapDiv.classList.remove("full");
+
+    console.log(`expand useeffect ${expand}`);
+  }, [expand]);
 
   const toggleExpand = () => {
     setExpand(true);
@@ -52,14 +61,7 @@ function MapComponent(props) {
   //   }
   // }, [location])
 
-  useEffect(() => {
-    let mapDiv = document.querySelector("#mapDiv");
-    if (expand == true) mapDiv.classList.add("full");
-    else mapDiv.classList.remove("full");
-
-    console.log(`expand useeffect ${expand}`);
-  }, [expand]);
-
+  // set marker icon
   const markerIcon = new L.Icon({
     iconUrl: icon,
     iconSize: [25, 35],

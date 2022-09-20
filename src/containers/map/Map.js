@@ -7,6 +7,7 @@ import { Fade } from "react-reveal";
 
 function Map(props) {
   const theme = props.theme;
+  // saved places from my google maps
   const markers = Markers["features"];
 
   return (

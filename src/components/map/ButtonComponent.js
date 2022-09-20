@@ -3,6 +3,10 @@ import { useMap } from "react-leaflet";
 import L, { LeafletMouseEvent, Map } from "leaflet";
 import { Icon } from "@iconify/react";
 
+/**
+ * Add a button into the OpenStreetMap
+ * Takes a callback function to apply on click
+ */
 class ButtonComponent extends React.Component {
   helpDiv;
 

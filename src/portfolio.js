@@ -1,4 +1,12 @@
-/* Change this file to get your personal Porfolio */
+/*
+
+This file contains the content of the site. All personal information, links, images, etc
+are stored here in dictionaries which are them called from the proper pages.
+
+Some pages will apply a style logic depending on the format of the dictionary. 
+See comments below for more information.
+
+*/
 
 // Website related settings
 const settings = {
@@ -6,7 +14,13 @@ const settings = {
   useCustomCursor: true, // Change this to false if you want the good'ol cursor
 };
 
-//Home Page
+/**
+ *************************************************************************************
+ * Home page
+ *************************************************************************************
+ */
+
+// Initial greeting
 const greeting = {
   title: "Welcome 🙏🏽",
   title2: "Ryan",
@@ -19,6 +33,7 @@ const greeting = {
   mail: "mailto:ryan.headley@me.com",
 };
 
+// Contact links
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/iry47/",
@@ -28,6 +43,8 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/iry47/",
 };
 
+// Two column image-text style sections with button link
+// Travel and Computer Science
 const skills = {
   data: [
     {
@@ -172,6 +189,49 @@ const skills = {
   ],
 };
 
+/**
+ *************************************************************************************
+ * Travel page
+ *************************************************************************************
+ */
+
+// Blog cards linking to page
+const blogs = {
+  blogs: [
+    {
+      title: "Travel the Amazon river by boat",
+      description:
+        "The Amazon doesn't have many roads, so boats are the main method of transportation. Find out what is required and what to expect to explore the lungs of the earth!",
+      image: "amazon-river-cruise.jpg",
+      url: "amazon-boat",
+      color_code: "",
+    },
+    {
+      title: "Work a ski season in the Alps",
+      description:
+        "Explore working a season in one of the most known ski locations in the world.",
+      image: "champagny-crew.jpg",
+      url: "ski-season",
+      color_code: "",
+    },
+    {
+      title: "Benefits of staying in hostels",
+      description:
+        "How staying in Hostels can help every traveller connect to and learn the local culture.",
+      image: "banana-group.jpg",
+      url: "hostels",
+      color_code: "",
+    },
+  ],
+};
+
+/**
+ *************************************************************************************
+ * Education page
+ *************************************************************************************
+ */
+
+// Degrees
 const degrees = {
   degrees: [
     {
@@ -219,6 +279,7 @@ const degrees = {
   ],
 };
 
+// Certifications
 const certifications = {
   certifications: [
     {
@@ -227,72 +288,20 @@ const certifications = {
       logo_path: "aws_logo.png",
       certificate_link: "",
       alt_name: "AWS Cloud Practitioner",
-      // color_code: "#2AAFED",
       color_code: "#2AAFED",
     },
-    // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-    //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
-    // },
-    // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
-    // },
-
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
-// Travel Page
-const blogs = {
-  blogs: [
-    {
-      title: "Travel the Amazon river by boat",
-      description:
-        "The Amazon doesn't have many roads, so boats are the main method of transportation. Find out what is required and what to expect to explore the lungs of the earth!",
-      image: "amazon-river-cruise.jpg",
-      url: "amazon-boat",
-      color_code: "",
-    },
-    {
-      title: "Work a ski season in the Alps",
-      description:
-        "Explore working a season in one of the most known ski locations in the world.",
-      image: "champagny-crew.jpg",
-      url: "ski-season",
-      color_code: "",
-    },
-    {
-      title: "Benefits of staying in hostels",
-      description:
-        "How staying in Hostels can help every traveller connect to and learn the local culture.",
-      image: "banana-group.jpg",
-      url: "hostels",
-      color_code: "",
-    },
-  ],
-};
+/**
+ *************************************************************************************
+ * Article page
+ *************************************************************************************
+ */
 
-// Article Page
+// Each article has a specific style:
+// General title and description followed by sections
+// Each section has a bullet list followed by a clickable hidden dropdown text
 const articles = {
   "ski-season": {
     title: "Getting a Ski Season Job",
@@ -379,7 +388,7 @@ const articles = {
           "Booking.com provides non-hostel options, more customisability to your search and depending on where you are in the world it can show more hostels than HW (often true in South America). Most reservations don’t require a booking fee and often you can book without even using a credit card.",
         ],
         dropdown:
-          "While in Europe I exclusively used HostelWorld. It was what I was initially recommended and pretty much the only site I ever heard anyone using. The UI is great and since everyone was using it, it was filled with options and reviews. When I got to South America I had to start using Booking.com after I noticed that HW was often lacking in options and sometimes didn’t have a single one, where Booking.com always came through. I also learned later on that I could book through Booking.com without paying for the reservation and the prices were sometimes cheaper than what I saw on HW. Whichever one you end up using, it may be nice to quickly check the other one before making a reservation just in case the price is different.</p><p>When travelling during high season (it varies depending on location but school vacations are usually a good rule of thumb) it is best to reserve a couple days before because hostels tend to fill up, especially if you’re going to a party place for the weekend. Travelling during low season is the opposite and I almost never make reservations — not saying there’s no risk of hostels filling up, you should do what you believe is best. You can call the hostel a few days before your planned arrival to ask how many beds are available the night you’re looking to book. I find that hostels often don’t list all the beds on these sites all at once. If I’m arriving early enough in the day, I prefer to choose an area that has a few options and go to visit each of them to pick out my favourite and negotiate prices. If I don’t feel like walking around (which happens after long days of travel) then I still wouldn’t reserve and keep the option of abandoning my first choice if it is really bad. After some trial an error you’ll design your own system and in no time you’ll be consistently pleased with hostels since you’ve already set yourself up to arrive in a place that meet your basic requirements. Now what are some basic requirements?",
+          "While in Europe I exclusively used HostelWorld. It was what I was initially recommended and pretty much the only site I ever heard anyone using. The UI is great and since everyone was using it, it was filled with options and reviews. When I got to South America I had to start using Booking.com after I noticed that HW was often lacking in options and sometimes didn’t have a single one, where Booking.com always came through. I also learned later on that I could book through Booking.com without paying for the reservation and the prices were sometimes cheaper than what I saw on HW. Whichever one you end up using, it may be nice to quickly check the other one before making a reservation just in case the price is different. When travelling during high season (it varies depending on location but school vacations are usually a good rule of thumb) it is best to reserve a couple days before because hostels tend to fill up, especially if you’re going to a party place for the weekend. Travelling during low season is the opposite and I almost never make reservations — not saying there’s no risk of hostels filling up, you should do what you believe is best. You can call the hostel a few days before your planned arrival to ask how many beds are available the night you’re looking to book. I find that hostels often don’t list all the beds on these sites all at once. If I’m arriving early enough in the day, I prefer to choose an area that has a few options and go to visit each of them to pick out my favourite and negotiate prices. If I don’t feel like walking around (which happens after long days of travel) then I still wouldn’t reserve and keep the option of abandoning my first choice if it is really bad. After some trial an error you’ll design your own system and in no time you’ll be consistently pleased with hostels since you’ve already set yourself up to arrive in a place that meet your basic requirements. Now what are some basic requirements?",
       },
       {
         title: "Volunteering",
@@ -397,13 +406,13 @@ const articles = {
         title: "How to Choose a Hostel",
         images: ["banana-yoga.jpg", "banana-hammocks.jpg"],
         points: [
-          "<b>Read reviews</b>, being the truest way to learn about the vibe and quality of everything they offer.",
+          "Read reviews, being the truest way to learn about the vibe and quality of everything they offer.",
           "Look at the map, because not everyone wants to be an hour from the centre and vice-versa.",
           "Make a list of requirements that you’d like the hostel to have. Look at the filters available on the sites for ideas.",
           "Photos are always nice to look at but aren’t guaranteed to be true.",
         ],
         dropdown:
-          "Before searching for a hostel, it’s important to know what sort of environment you’re looking for. Great hostels have spaces for everyone, but often hostels can be classified as calm or party, great facilities (bed, bathrooms, common areas) or okay facilities, etc. Most of the complaints I hear about hostels are when someone ends up in a hostel providing an incompatible environment for said traveler. This doesn’t mean all hostels are bad, this just means you could have chosen better. I personally change the type of hostel I stay in depending on my mood of the day, whether I’m looking to work in a comfy common room, be really social and party or maybe I’m just looking find  the cheapest single room. </p> When scrolling through a list of hostels, I like to have a couple basic filters to reduce the list. I personally always order by price, and then usually only look at hostels with breakfast included since I enjoy waking up with the first step of the day taken care of for me so I can focus on organising the day ahead. I also often have an idea of where I’d like the hostel to be located, and even if I don’t I still look at the map and judge its location based on points of interest like city centre, water, transportation, etc. Once you have your list of initial requirements set then you can take a quick look at the picture, rating and number of reviews before diving into the hostel’s page. There I usually glance at the description, but if in a rush the only important thing in my mind is reading the reviews. This is where you’ll find out if what you’re seeing about the hostel is true, and what quality they offer. I’m usually looking for comments about the quality of the breakfast, wifi and environment, whether they have security lockers and everything else that catches my eye. If there is only one thing you want to do when looking for hostels then reading reviews is it.",
+          "Before searching for a hostel, it’s important to know what sort of environment you’re looking for. Great hostels have spaces for everyone, but often hostels can be classified as calm or party, great facilities (bed, bathrooms, common areas) or okay facilities, etc. Most of the complaints I hear about hostels are when someone ends up in a hostel providing an incompatible environment for said traveler. This doesn’t mean all hostels are bad, this just means you could have chosen better. I personally change the type of hostel I stay in depending on my mood of the day, whether I’m looking to work in a comfy common room, be really social and party or maybe I’m just looking find  the cheapest single room. When scrolling through a list of hostels, I like to have a couple basic filters to reduce the list. I personally always order by price, and then usually only look at hostels with breakfast included since I enjoy waking up with the first step of the day taken care of for me so I can focus on organising the day ahead. I also often have an idea of where I’d like the hostel to be located, and even if I don’t I still look at the map and judge its location based on points of interest like city centre, water, transportation, etc. Once you have your list of initial requirements set then you can take a quick look at the picture, rating and number of reviews before diving into the hostel’s page. There I usually glance at the description, but if in a rush the only important thing in my mind is reading the reviews. This is where you’ll find out if what you’re seeing about the hostel is true, and what quality they offer. I’m usually looking for comments about the quality of the breakfast, wifi and environment, whether they have security lockers and everything else that catches my eye. If there is only one thing you want to do when looking for hostels then reading reviews is it.",
       },
       {
         title: "Volunteering",
@@ -483,7 +492,7 @@ const articles = {
           "Mosquitos: even when you’re close to the coast and where the mosquitos are, the wind created from the moving boat is sufficient to eliminate virtually all mosquitos.",
         ],
         dropdown:
-          "The first and most important item in your checklist is a hammock. While private rooms are available for two people at double the price each, the majority of people end up spending over 15h a day in their hammock — a number I just made up, but I didn’t spend an abnormally large amount of time in my hammock and I easily got to 16h/day. I was actually gifted my hammock by a traveller that had just done the trip. The hammock was gifted to him and I gifted it to someone else, so keep your eyes peeled in hostels on your way there!</p> Security on the boat is non-existant so it’s best to keep your things in sight or have them covered and tied down when there not. While saying this, my experience on the boat was nothing but positive: the majority of people on the boat are locals visiting family or friends and I often left bags in the company of new friends. The times to be vigilant are when people are entering and leaving the boat, whether that is at the port or when boats are attaching-on mid-river to sell food. I never had any trouble with the food on the boat, but some people did. I believe it helped that I had already spent so much time in the country and continent adjusting to the foreign bacteria. Minus the occasional soup or vegetable, the food is exclusively rice, beans, plain spaghetti and meat (usually chicken). I definitely suggest buying fruit and some tasty raw veggies before getting on the boat. I personally always bought water as well. Some boats have their water supplied by smaller boats which fill the tank with a hose: hard to believe is clean. While some boats bring in sealed 10L bottles of water and fill up the tank, there still no guarantee that the tanks are properly cleaned. Maybe I’m paranoid but I just feel more comfortable having trustworthy water while eating low nutritional food in a metal tank filled with hundreds of people cruising through the jungle. The boats always have chargers somewhere, and some more readily available than others. If you’re hoping to spend time in your hammock using your tech then I’d suggest getting a cheap extension cable and choosing your hammock location wisely. As a rule of thumb, <b>never leave any device charging unattended</b>. Even in boats with cameras and friendly looking people, it’s just too easy for someone to snatch it and never get caught. ",
+          "The first and most important item in your checklist is a hammock. While private rooms are available for two people at double the price each, the majority of people end up spending over 15h a day in their hammock — a number I just made up, but I didn’t spend an abnormally large amount of time in my hammock and I easily got to 16h/day. I was actually gifted my hammock by a traveller that had just done the trip. The hammock was gifted to him and I gifted it to someone else, so keep your eyes peeled in hostels on your way there! Security on the boat is non-existant so it’s best to keep your things in sight or have them covered and tied down when there not. While saying this, my experience on the boat was nothing but positive: the majority of people on the boat are locals visiting family or friends and I often left bags in the company of new friends. The times to be vigilant are when people are entering and leaving the boat, whether that is at the port or when boats are attaching-on mid-river to sell food. I never had any trouble with the food on the boat, but some people did. I believe it helped that I had already spent so much time in the country and continent adjusting to the foreign bacteria. Minus the occasional soup or vegetable, the food is exclusively rice, beans, plain spaghetti and meat (usually chicken). I definitely suggest buying fruit and some tasty raw veggies before getting on the boat. I personally always bought water as well. Some boats have their water supplied by smaller boats which fill the tank with a hose: hard to believe is clean. While some boats bring in sealed 10L bottles of water and fill up the tank, there still no guarantee that the tanks are properly cleaned. Maybe I’m paranoid but I just feel more comfortable having trustworthy water while eating low nutritional food in a metal tank filled with hundreds of people cruising through the jungle. The boats always have chargers somewhere, and some more readily available than others. If you’re hoping to spend time in your hammock using your tech then I’d suggest getting a cheap extension cable and choosing your hammock location wisely. As a rule of thumb, never leave any device charging unattended. Even in boats with cameras and friendly looking people, it’s just too easy for someone to snatch it and never get caught. ",
       },
       {
         title: "Enjoying the Ride",
@@ -506,7 +515,13 @@ const articles = {
   },
 };
 
-// Experience Page
+/**
+ *************************************************************************************
+ * Experience page
+ *************************************************************************************
+ */
+
+// Experience cards
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
@@ -594,7 +609,13 @@ const experience = {
   ],
 };
 
-// Projects Page
+/**
+ *************************************************************************************
+ * Project page
+ *************************************************************************************
+ */
+
+// Project page header
 const projectsHeader = {
   title: "Projects",
   description:
@@ -602,16 +623,7 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-// Contact Page
-const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "ryan_face_afro.png",
-    description:
-      "Always happy to chat 😁 so please don't hesitate to send me a message in one of the channels below ! ",
-  },
-};
-
+// Individual project cards
 const projects = {
   data: [
     {
@@ -762,6 +774,21 @@ const projects = {
       ],
     },
   ],
+};
+
+/**
+ *************************************************************************************
+ * Contact page
+ *************************************************************************************
+ */
+
+const contactPageData = {
+  contactSection: {
+    title: "Contact Me",
+    profile_image_path: "ryan_face_afro.png",
+    description:
+      "Always happy to chat 😁 so please don't hesitate to send me a message in one of the channels below ! ",
+  },
 };
 
 export {

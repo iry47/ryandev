@@ -20,12 +20,16 @@ function GetSkillSvg(props) {
 function SkillSection(props) {
   const theme = props.theme;
   const history = useHistory();
+
+  // hover style
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+
+  // Alternate between left and right image for two column layout
   return (
     <div>
       {skills.data.map((skill, index) => {
