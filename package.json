@@ -14,6 +14,8 @@
   "dependencies": {
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
+    "dotenv": "^16.0.2",
+    "firebase": "^9.10.0",
     "fs": "0.0.1-security",
     "glamor": "^2.20.40",
     "leaflet": "^1.8.0",
@@ -42,7 +44,8 @@
     "gh-pages": "^3.2.3",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
-    "prettier": "2.2.1"
+    "prettier": "2.2.1",
+    "react-error-overlay": "^6.0.11"
   },
   "browserslist": [
     ">0.2%",

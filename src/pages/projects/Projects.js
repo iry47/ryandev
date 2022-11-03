@@ -53,11 +53,7 @@ function Projects(props) {
       <br />
       <br />
       <br />
-      <a
-        {...styles}
-        className="general-btn"
-        href="https://github.com/vvHacker007/"
-      >
+      <a {...styles} className="general-btn" href="https://github.com/iry47/">
         More Projects (Github)
       </a>
       <br />
