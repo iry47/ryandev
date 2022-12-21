@@ -199,19 +199,19 @@ const skills = {
 const blogs = {
   blogs: [
     {
-      title: "Travel the Amazon river by boat",
-      description:
-        "The Amazon doesn't have many roads, so boats are the main method of transportation. Find out what is required and what to expect to explore the lungs of the earth!",
-      image: "amazon-river-cruise.jpg",
-      url: "amazon-boat",
-      color_code: "",
-    },
-    {
       title: "Work a ski season in the Alps",
       description:
         "Explore working a season in one of the most known ski locations in the world.",
       image: "champagny-crew.jpg",
       url: "ski-season",
+      color_code: "",
+    },
+    {
+      title: "Travel the Amazon river by boat",
+      description:
+        "The Amazon doesn't have many roads, so boats are the main method of transportation. Find out what is required and what to expect to explore the lungs of the earth!",
+      image: "amazon-river-cruise.jpg",
+      url: "amazon-boat",
       color_code: "",
     },
     {
@@ -246,7 +246,7 @@ const degrees = {
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.srmist.edu.in/",
+      website_link: "https://www.epitech.eu/",
     },
     {
       title: "Queen's University",
@@ -260,7 +260,7 @@ const degrees = {
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
-      website_link: "https://www.epitech.eu/",
+      website_link: "https://www.queensu.ca/",
     },
     {
       title: "Queen's University",

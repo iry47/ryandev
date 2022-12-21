@@ -42,6 +42,44 @@ function Travel(props) {
           </div>
         </Fade>
         <Travels theme={props.theme} />
+        <div className="main">
+          <a href="https://www.polarsteps.com/NinaAzabache" target="_blank">
+            <div
+              className="experience-card"
+              style={{
+                border: `1px solid rgb(107, 186, 112)`,
+                backgroundColor: theme.imageDark,
+              }}
+            >
+              <div className="experience-card-logo-div">
+                <img
+                  className="experience-card-logo"
+                  src={require(`../../assets/images/polarsteps.jpg`)}
+                  alt=""
+                />
+              </div>
+              <div className="experience-card-body-div">
+                <div className="experience-card-header-div">
+                  <div className="experience-card-heading-left">
+                    <h3
+                      className="experience-card-title"
+                      style={{ color: theme.text }}
+                    >
+                      Current Trip
+                    </h3>
+                  </div>
+                </div>
+                <p
+                  className="experience-card-description"
+                  style={{ color: theme.text }}
+                >
+                  If you're looking to see my travel route with some photos of
+                  what we did, check out our Polarsteps page.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
         <Blogs theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
