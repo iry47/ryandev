@@ -10,9 +10,9 @@ function Blogs(props) {
     <div className="main" id="blogs">
       <div className="blogs-header-div">
         <Fade bottom duration={2000} distance="20px">
-          <h1 className="blogs-header" style={{ color: theme.text }}>
+          <h2 className="blogs-header" style={{ color: theme.text }}>
             Blogs
-          </h1>
+          </h2>
         </Fade>
       </div>
       <div className="blogs-body-div">

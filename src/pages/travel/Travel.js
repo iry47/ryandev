@@ -43,6 +43,7 @@ function Travel(props) {
         </Fade>
         <Travels theme={props.theme} />
         <div className="main">
+          <h2 className="blogs-header">Photos</h2>
           <a href="https://www.polarsteps.com/NinaAzabache" target="_blank">
             <div
               className="experience-card"
