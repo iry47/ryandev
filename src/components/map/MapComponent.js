@@ -7,6 +7,7 @@ import L from "leaflet";
 import icon from "../../assets/images/marker.png";
 import ButtonComponent from "./ButtonComponent";
 import useGeoLocation from "./useGeoLocation";
+import AwesomeMarkers from "../../leaflet.awesome-markers";
 
 function MapComponent(props) {
   const markers = props.markers;
@@ -62,10 +63,15 @@ function MapComponent(props) {
   // }, [location])
 
   // set marker icon
-  const markerIcon = new L.Icon({
+  const markerIcons = new L.Icon({
     iconUrl: icon,
     iconSize: [25, 35],
     iconAnchor: [5, 30],
+  });
+
+  const markerIcon = new L.AwesomeMarkers.icon({
+    icon: "coffee",
+    markerColor: "red",
   });
 
   function MapView() {
