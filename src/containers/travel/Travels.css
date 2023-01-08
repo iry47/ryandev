@@ -21,6 +21,23 @@
   padding: 0 20px;
   margin-left: 0;
 }
+.legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.legendItem {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 20px;
+}
+.legendImage {
+  width: 25px;
+}
+.legendText {
+  max-width: 100px;
+}
 
 @media (max-width: 1380px) {
   .travels-header {

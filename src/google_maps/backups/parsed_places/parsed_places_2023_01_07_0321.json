@@ -1,0 +1,27 @@
+{
+  "name": {
+    "0": "REBEL Rock Climbing",
+    "1": "Tattoo Jane Phuket",
+    "2": "Thai Cooking With Judy"
+  },
+  "category": {
+    "0": "Rock climbing gym",
+    "1": "Tattoo shop",
+    "2": "Cooking school"
+  },
+  "google_link": {
+    "0": "http://maps.google.com/?cid=12035162435106131740",
+    "1": "http://maps.google.com/?cid=15155383640560610830",
+    "2": "http://maps.google.com/?cid=7946522986749056156"
+  },
+  "phone": {
+    "0": "076 608 734",
+    "1": "085 787 4826",
+    "2": "094 591 4991"
+  },
+  "website": {
+    "0": "rebelrockclimbing.com",
+    "1": "janetattoo.com",
+    "2": "thaicookingwithjudy.com"
+  }
+}
