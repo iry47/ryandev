@@ -49,7 +49,7 @@
         "Published": "2023-01-20T06:50:58Z",
         "Title": "天雲素食 Tian Yun Vegan Restaurant",
         "Updated": "2023-01-20T06:50:58Z",
-        "marker": "food",
+        "marker": "other",
         "category": "餐廳"
       },
       "type": "Feature"
@@ -470,7 +470,7 @@
         "Published": "2023-01-15T02:14:13Z",
         "Title": "Tropical Fruit Farm",
         "Updated": "2023-01-15T02:14:13Z",
-        "marker": "market",
+        "marker": "other",
         "category": "Farm"
       },
       "type": "Feature"
@@ -1070,7 +1070,7 @@
         "Published": "2023-01-06T12:43:59Z",
         "Title": "สลัดบาร์ 108 (Salad Bar 108)",
         "Updated": "2023-01-06T12:43:59Z",
-        "marker": "cafe",
+        "marker": "other",
         "category": "ร้านอาหาร"
       },
       "type": "Feature"
@@ -1306,7 +1306,7 @@
         "Published": "2022-12-28T12:05:46Z",
         "Title": "Go Vegan Cafe",
         "Updated": "2022-12-28T12:05:46Z",
-        "marker": "cafe",
+        "marker": "other",
         "category": "ร้านอาหาร"
       },
       "type": "Feature"
@@ -1386,7 +1386,7 @@
         "Published": "2022-12-22T12:16:55Z",
         "Title": "Ryn - Authentic Tea & Slow Drop Coffee",
         "Updated": "2022-12-22T12:16:55Z",
-        "marker": "cafe",
+        "marker": "other",
         "category": "Tea house"
       },
       "type": "Feature"
