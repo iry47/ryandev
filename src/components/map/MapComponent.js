@@ -3,8 +3,9 @@ import "./MapComponent.css";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import { useMapEvents } from "react-leaflet";
 import L from "leaflet";
-import icon from "../../assets/images/marker.png";
+import marker from "../../assets/images/marker.png";
 import food from "../../assets/images/markers/food.svg";
 import cafe from "../../assets/images/markers/cafe.svg";
 import hostel from "../../assets/images/markers/hostel.svg";
@@ -15,12 +16,12 @@ import travel from "../../assets/images/markers/travel.svg";
 import tourism from "../../assets/images/markers/tourism.svg";
 import other from "../../assets/images/markers/other.svg";
 import ButtonComponent from "./ButtonComponent";
-import useGeoLocation from "./useGeoLocation";
+// import useGeoLocation from "./useGeoLocation";
 
 function MapComponent(props) {
   const markers = props.markers;
-  const [locate, setLocate] = useState([]);
-
+  const [locate, setLocate] = useState(false);
+  const [position, setPosition] = useState(null);
   //expand map to full screen or shrink to default size
   const [expand, setExpand] = useState(false);
   useEffect(() => {
@@ -40,44 +41,16 @@ function MapComponent(props) {
 
   const mapRef = useRef();
 
-  const location = null;
-  // const location = useGeoLocation();
-
-  // NOT WORKING
-
-  // const toggleLocation = () => {
-  //   console.log("locaiton togle", locate)
-  //   if (locate.loaded == true) {
-  //     mapRef.current.leafletElement.flyTo(
-  //       [locate.coordinates.lat, locate.coordinates.lng],
-  //       9,
-  //       { animate: true }
-  //     );
-  //   } else {
-  //     alert(locate.error.message);
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   console.log("useeffect location", location)
-  //   setLocate(location)
-  //   if (location.loaded == true) {
-  //     mapRef.current.leafletElement.flyTo(
-  //       [location.coordinates.lat, location.coordinates.lng],
-  //       9,
-  //       { animate: true }
-  //     );
-  //   }
-  // }, [location])
+  const showMyLocation = () => {
+    setLocate(true);
+  };
 
   // set marker icon
-  const markerIcon = {
-    other: new L.Icon({
-      iconUrl: icon,
-      iconSize: [25, 35],
-      iconAnchor: [5, 30],
-    }),
-  };
+  const markerIcon = new L.Icon({
+    iconUrl: marker,
+    iconSize: [25, 35],
+    iconAnchor: [5, 30],
+  });
 
   const markerIcons = {
     food: new L.Icon({
@@ -129,6 +102,18 @@ function MapComponent(props) {
 
   function MapView() {
     let map = useMap();
+    useEffect(() => {
+      if (locate) {
+        map.locate().on("locationfound", function (e) {
+          // setPosition(e.latlng);
+          map.flyTo(e.latlng, 15);
+          const radius = e.accuracy;
+          const circle = L.circle(e.latlng, radius);
+          circle.addTo(map);
+        });
+        setLocate(false);
+      }
+    }, [locate]);
     map.setView([20.0, -30.0], map.getZoom());
     //Sets geographical center and zoom for the view of the map
     return null;
@@ -161,12 +146,13 @@ function MapComponent(props) {
             id={"shrink"}
             callBack={toggleShrink}
           />
-          {/* <ButtonComponent
-        icon={"ion:locate-outline"}
-        position={"bottomright"}
-        id={"locater"}
-        callBack={showMyLocation}
-      /> */}
+          <ButtonComponent
+            icon={"ion:locate-outline"}
+            position={"bottomright"}
+            id={"locater"}
+            callBack={showMyLocation}
+          />
+
           {markers.map((marker) => {
             return (
               <Marker
