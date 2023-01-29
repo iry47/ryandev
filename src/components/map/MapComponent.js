@@ -22,6 +22,8 @@ function MapComponent(props) {
   const markers = props.markers;
   const [locate, setLocate] = useState(false);
   const [position, setPosition] = useState(null);
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {}, [loading]);
   //expand map to full screen or shrink to default size
   const [expand, setExpand] = useState(false);
   useEffect(() => {
@@ -42,6 +44,7 @@ function MapComponent(props) {
   const mapRef = useRef();
 
   const showMyLocation = () => {
+    setLoading(true);
     setLocate(true);
   };
 
@@ -106,10 +109,13 @@ function MapComponent(props) {
       if (locate) {
         map.locate().on("locationfound", function (e) {
           // setPosition(e.latlng);
-          map.flyTo(e.latlng, 15);
+          map.flyTo(e.latlng, 15, { duration: 0.75 });
           const radius = e.accuracy;
           const circle = L.circle(e.latlng, radius);
           circle.addTo(map);
+        });
+        map.on("moveend", function (e) {
+          setLoading(false);
         });
         setLocate(false);
       }
@@ -122,58 +128,60 @@ function MapComponent(props) {
   return (
     <div>
       <div id="mapDiv" className="map-main-div">
-        <MapContainer
-          classsName="map"
-          center={[0.0, 0.0]}
-          zoom={2}
-          scrollWheelZoom={true}
-          ref={mapRef}
-        >
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> 
+        <div className={loading ? "map-loading" : ""}>
+          <MapContainer
+            className="map"
+            center={[0.0, 0.0]}
+            zoom={2}
+            scrollWheelZoom={true}
+            ref={mapRef}
+          >
+            <TileLayer
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> 
         contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <ButtonComponent
-            icon={"fluent:arrow-expand-20-filled"}
-            position={"topright"}
-            id={"expand"}
-            callBack={toggleExpand}
-          />
-          <ButtonComponent
-            icon={"lucide:shrink"}
-            position={"topright"}
-            id={"shrink"}
-            callBack={toggleShrink}
-          />
-          <ButtonComponent
-            icon={"ion:locate-outline"}
-            position={"bottomright"}
-            id={"locater"}
-            callBack={showMyLocation}
-          />
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <ButtonComponent
+              icon={"fluent:arrow-expand-20-filled"}
+              position={"topright"}
+              id={"expand"}
+              callBack={toggleExpand}
+            />
+            <ButtonComponent
+              icon={"lucide:shrink"}
+              position={"topright"}
+              id={"shrink"}
+              callBack={toggleShrink}
+            />
+            <ButtonComponent
+              icon={"ion:locate-outline"}
+              position={"bottomright"}
+              id={"locater"}
+              callBack={showMyLocation}
+            />
 
-          {markers.map((marker) => {
-            return (
-              <Marker
-                icon={markerIcons[marker.properties.marker]}
-                position={[
-                  marker.geometry.coordinates[1],
-                  marker.geometry.coordinates[0],
-                ]}
-              >
-                <Popup>
-                  {marker.properties.Title}
-                  <br></br>
-                  <a href={marker.properties["Google Maps URL"]}>
-                    View in Google Maps
-                  </a>
-                </Popup>
-              </Marker>
-            );
-          })}
-          <MapView />
-        </MapContainer>
+            {markers.map((marker) => {
+              return (
+                <Marker
+                  icon={markerIcons[marker.properties.marker]}
+                  position={[
+                    marker.geometry.coordinates[1],
+                    marker.geometry.coordinates[0],
+                  ]}
+                >
+                  <Popup>
+                    {marker.properties.Title}
+                    <br></br>
+                    <a href={marker.properties["Google Maps URL"]}>
+                      View in Google Maps
+                    </a>
+                  </Popup>
+                </Marker>
+              );
+            })}
+            <MapView />
+          </MapContainer>
+        </div>
       </div>
     </div>
   );

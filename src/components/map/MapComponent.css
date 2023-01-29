@@ -35,3 +35,7 @@
 button.leaflet-control {
   /* margin-right: 20px; */
 }
+
+.map-loading {
+  opacity: 0.5;
+}
