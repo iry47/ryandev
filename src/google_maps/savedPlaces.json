@@ -4,6 +4,1418 @@
     {
       "geometry": {
         "coordinates": [
+          101.6954261,
+          3.1452135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4389032577010594232",
+        "Location": {
+          "Address": "Central Market, FK02 food court, Jalan Hang Kasturi, City Centre, 50050 Kuala Lumpur, Malaysia",
+          "Business Name": "Green bowl salad bar",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.1452135",
+            "Longitude": "101.6954261"
+          }
+        },
+        "Published": "2023-03-15T10:33:09Z",
+        "Title": "Green bowl salad bar",
+        "Updated": "2023-03-15T10:33:09Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6981226,
+          3.1489039
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11998047083510057356",
+        "Location": {
+          "Address": "22, Jalan Tun H S Lee, City Centre, 50100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+          "Business Name": "Mingle Highstreet Hostel",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.1489039",
+            "Longitude": "101.6981226"
+          }
+        },
+        "Published": "2023-03-14T06:54:44Z",
+        "Title": "Mingle Highstreet Hostel",
+        "Updated": "2023-03-14T06:54:44Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6840385,
+          3.2378844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17491958630477438713",
+        "Location": {
+          "Address": "Gombak, 68100 Batu Caves, Selangor, Malaysia",
+          "Business Name": "Batu Caves",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.2378844",
+            "Longitude": "101.6840385"
+          }
+        },
+        "Published": "2023-03-14T01:05:18Z",
+        "Title": "Batu Caves",
+        "Updated": "2023-03-14T01:05:18Z",
+        "marker": "other",
+        "category": "Shrine"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6458672,
+          3.5651649
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17100438188293160934",
+        "Location": {
+          "Address": "110, Jalan Arif 6, Taman Arif Utama, 44000 Kuala Kubu Baru, Selangor, Malaysia",
+          "Business Name": "Kolam Air Panas Kuala Kubu Baru",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5651649",
+            "Longitude": "101.6458672"
+          }
+        },
+        "Published": "2023-03-13T00:01:51Z",
+        "Title": "Kolam Air Panas Kuala Kubu Baru",
+        "Updated": "2023-03-13T00:01:51Z",
+        "marker": "cafe",
+        "category": "Nature preserve"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6606533,
+          3.5646499
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13749963129928219277",
+        "Location": {
+          "Address": "12, Jalan Mat Kilau, Pekan Kuala Kubu Bharu, 44000 Kuala Kubu Baru, Selangor, Malaysia",
+          "Business Name": "BASE HOTEL",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5646499",
+            "Longitude": "101.6606533"
+          }
+        },
+        "Published": "2023-03-13T00:01:39Z",
+        "Title": "BASE HOTEL",
+        "Updated": "2023-03-13T00:01:39Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6599442,
+          3.5641502
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7696478296999022230",
+        "Location": {
+          "Address": "15, Jalan Kamarudin, Kampung Tun Abdul Razak, 44000 Kuala Kubu Baru, Selangor, Malaysia",
+          "Business Name": "Shawarma Royal (kebab)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5641502",
+            "Longitude": "101.6599442"
+          }
+        },
+        "Published": "2023-03-12T05:56:44Z",
+        "Title": "Shawarma Royal (kebab)",
+        "Updated": "2023-03-12T05:56:44Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6593772,
+          3.5633486
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11656432389378496663",
+        "Location": {
+          "Address": "14, Jalan Mat Kilau, Pekan Kuala Kubu Bharu, 44000 Kuala Kubu Baru, Selangor, Malaysia",
+          "Business Name": "Yogi Cafe Kuala Kubu Bharu",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5633486",
+            "Longitude": "101.6593772"
+          }
+        },
+        "Published": "2023-03-12T05:55:31Z",
+        "Title": "Yogi Cafe Kuala Kubu Bharu",
+        "Updated": "2023-03-12T05:55:31Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6781577,
+          3.5592162
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10382311697112307977",
+        "Location": {
+          "Address": "44000 Kuala Kubu Bharu, Selangor, Malaysia",
+          "Business Name": "Bukit Batu Pahat (Puncak)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5592162",
+            "Longitude": "101.6781577"
+          }
+        },
+        "Published": "2023-03-12T02:03:32Z",
+        "Title": "Bukit Batu Pahat (Puncak)",
+        "Updated": "2023-03-12T02:03:32Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.6595475,
+          3.5635252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10139427453734398584",
+        "Location": {
+          "Address": "24, Jalan Mat Kilau, Kampung Tun Abdul Razak, 44000 Kuala Kubu Baru, Selangor, Malaysia",
+          "Business Name": "Nagu Curry House (Indian)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.5635252",
+            "Longitude": "101.6595475"
+          }
+        },
+        "Published": "2023-03-11T04:28:49Z",
+        "Title": "Nagu Curry House (Indian)",
+        "Updated": "2023-03-11T04:28:49Z",
+        "marker": "food",
+        "category": "Indian restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4006093,
+          3.8349269
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=13100040919405410656",
+        "Location": {
+          "Address": "15, Jalan Mutiara, 35800 Slim River, Perak, Malaysia",
+          "Business Name": "Restoran Sri Baba Bakala(vista bistari resources)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.8349269",
+            "Longitude": "101.4006093"
+          }
+        },
+        "Published": "2023-03-10T06:17:41Z",
+        "Title": "Restoran Sri Baba Bakala(vista bistari resources)",
+        "Updated": "2023-03-10T06:17:41Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4042469,
+          3.8299806
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16549140982370725794",
+        "Location": {
+          "Address": "Lot PT 1124, PT 1125, Lrg Stesen, Kampung Manggis, 35800 Slim River, Perak, Malaysia",
+          "Business Name": "Jemari Srikandi Spa",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.8299806",
+            "Longitude": "101.4042469"
+          }
+        },
+        "Published": "2023-03-10T05:16:13Z",
+        "Title": "Jemari Srikandi Spa",
+        "Updated": "2023-03-10T05:16:13Z",
+        "marker": "other",
+        "category": "Spa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4050053,
+          3.8268345
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1737058734251509118",
+        "Location": {
+          "Address": "1, Persiaran Wisma, Slim Putra, 35800 Slim River, Perak, Malaysia",
+          "Business Name": "OYO 89333 Musse Hotel",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.8268345",
+            "Longitude": "101.4050053"
+          }
+        },
+        "Published": "2023-03-09T09:35:43Z",
+        "Title": "OYO 89333 Musse Hotel",
+        "Updated": "2023-03-09T09:35:43Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.3644856,
+          3.9990619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7125242110576267357",
+        "Location": {
+          "Address": "Lot 2060, Kampung Perlok Lama, 35600 Sungkai, Perak, Malaysia",
+          "Business Name": "Tiong Trove Family Farm",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.9990619",
+            "Longitude": "101.3644856"
+          }
+        },
+        "Published": "2023-03-07T09:57:38Z",
+        "Title": "Tiong Trove Family Farm",
+        "Updated": "2023-03-07T09:57:38Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1505841,
+          4.3146295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6436095640027371883",
+        "Location": {
+          "Address": "Jalan Masjid, 31900 Kampar, Perak, Malaysia",
+          "Business Name": "Kampar Food Centre",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.3146295",
+            "Longitude": "101.1505841"
+          }
+        },
+        "Published": "2023-03-06T23:54:50Z",
+        "Title": "Kampar Food Centre",
+        "Updated": "2023-03-06T23:54:50Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.3961828,
+          4.4955815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2081123009505356244",
+        "Location": {
+          "Address": "Kuartes Jkr Sungai Burung,Brinchang, 39000 Tanah Rata, Pahang, Malaysia",
+          "Business Name": "Coral Hill",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4955815",
+            "Longitude": "101.3961828"
+          }
+        },
+        "Published": "2023-03-05T13:50:43Z",
+        "Title": "Coral Hill",
+        "Updated": "2023-03-05T13:50:43Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1461072,
+          4.3269037
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9977942180261847222",
+        "Location": {
+          "Address": "2218, Jalan Timah, Taman Bandar Baru, 31900 Kampar, Perak, Malaysia",
+          "Business Name": "Cocoya_Malaysia @kampar coconut shake",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.3269037",
+            "Longitude": "101.1461072"
+          }
+        },
+        "Published": "2023-03-05T12:59:26Z",
+        "Title": "Cocoya_Malaysia @kampar coconut shake",
+        "Updated": "2023-03-05T12:59:26Z",
+        "marker": "cafe",
+        "category": "Cafe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1584814,
+          4.3183252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12006385449635634660",
+        "Location": {
+          "Address": "5, Jalan Naga Villa 1, 31900 Kampar, Perak, Malaysia",
+          "Business Name": "Dragon Path",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.3183252",
+            "Longitude": "101.1584814"
+          }
+        },
+        "Published": "2023-03-05T10:33:37Z",
+        "Title": "Dragon Path",
+        "Updated": "2023-03-05T10:33:37Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.149542,
+          4.3221563
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5844054041839853547",
+        "Location": {
+          "Address": "178, Jalan Melor, Taman Sentosa, 31900 Kampar, Perak, Malaysia",
+          "Business Name": "DUADUA Coffee & Homestay",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.3221563",
+            "Longitude": "101.1495420"
+          }
+        },
+        "Published": "2023-03-05T08:51:13Z",
+        "Title": "DUADUA Coffee & Homestay",
+        "Updated": "2023-03-05T08:51:13Z",
+        "marker": "cafe",
+        "category": "Cafe"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.545036,
+          52.405584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?q=52.405584,4.545036",
+        "Location": {
+          "Geo Coordinates": {
+            "Latitude": "52.4055840",
+            "Longitude": "4.5450360"
+          }
+        },
+        "Published": "2019-08-07T16:23:54Z",
+        "Title": "52.405584,4.545036",
+        "Updated": "2023-03-05T08:15:19Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1809547,
+          4.430446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15458474563302754794",
+        "Location": {
+          "Address": "Earth Camp, Lot 17525, Kampung Chulek, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Nomad Adventure Sdn Bhd",
+          "Geo Coordinates": {
+            "Latitude": "4.4304460",
+            "Longitude": "101.1809547"
+          }
+        },
+        "Published": "2023-03-05T03:43:19Z",
+        "Title": "Nomad Adventure Sdn Bhd",
+        "Updated": "2023-03-05T03:43:19Z",
+        "marker": "other",
+        "category": "Rafting"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0971828,
+          4.587009
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11409799049259588348",
+        "Location": {
+          "Address": "47, Jln Sultan Nazrin Shah, Taman Chateau, 30250 Ipoh, Perak, Malaysia",
+          "Business Name": "Seed Wholesome Dining & Organic Farm",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5870090",
+            "Longitude": "101.0971828"
+          }
+        },
+        "Published": "2023-03-03T01:35:41Z",
+        "Title": "Seed Wholesome Dining & Organic Farm",
+        "Updated": "2023-03-03T01:35:41Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0871748,
+          4.6009296
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7069155691086827102",
+        "Location": {
+          "Address": "131, Jalan Raja Ekram, Taman Fair Park, 30300 Ipoh, Perak, Malaysia",
+          "Business Name": "Regal Spa & Jacuzzi",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.6009296",
+            "Longitude": "101.0871748"
+          }
+        },
+        "Published": "2023-03-03T01:32:04Z",
+        "Title": "Regal Spa & Jacuzzi",
+        "Updated": "2023-03-03T01:32:04Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.3703378,
+          4.4544597
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16902331574213007871",
+        "Location": {
+          "Address": "59, 39000 Tanah Rata, Pahang, Malaysia",
+          "Business Name": "Norsham Homemade Confectionery",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4544597",
+            "Longitude": "101.3703378"
+          }
+        },
+        "Published": "2023-03-02T08:39:49Z",
+        "Title": "Norsham Homemade Confectionery",
+        "Updated": "2023-03-02T08:39:49Z",
+        "marker": "other",
+        "category": "Bakery"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.4278939,
+          4.5179564
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5717680036442725030",
+        "Location": {
+          "Address": "156, 59, Tringkap, 39000 Tanah Rata, Pahang, Malaysia",
+          "Business Name": "Tringkap Hiking Trail",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5179564",
+            "Longitude": "101.4278939"
+          }
+        },
+        "Published": "2023-03-02T03:58:24Z",
+        "Title": "Tringkap Hiking Trail",
+        "Updated": "2023-03-02T03:58:24Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1687576,
+          4.3081149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10357020012424972408",
+        "Location": {
+          "Address": "Kampung Batu Berangkai, 35300 Kampar, Perak, Malaysia",
+          "Business Name": "Air Terjun Batu Berangkai",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.3081149",
+            "Longitude": "101.1687576"
+          }
+        },
+        "Published": "2023-02-27T10:51:22Z",
+        "Title": "Air Terjun Batu Berangkai",
+        "Updated": "2023-02-27T10:51:22Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1789836,
+          4.4490897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4554338815022632165",
+        "Location": {
+          "Address": "31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Nomad Adventure Mountain School",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4490897",
+            "Longitude": "101.1789836"
+          }
+        },
+        "Published": "2023-02-27T10:50:25Z",
+        "Title": "Nomad Adventure Mountain School",
+        "Updated": "2023-02-27T10:50:25Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1682224,
+          4.4746794
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14627722655417130018",
+        "Location": {
+          "Address": "Jalan Pasar, Pekan Gopeng, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Pasar Awam Gopeng",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4746794",
+            "Longitude": "101.1682224"
+          }
+        },
+        "Published": "2023-02-27T09:30:01Z",
+        "Title": "Pasar Awam Gopeng",
+        "Updated": "2023-02-27T09:30:01Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.3930369,
+          3.9980312
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14656705391960391089",
+        "Location": {
+          "Address": "35600 Sungkai, Perak, Malaysia",
+          "Business Name": "Sungai Klah Hot Spring Park",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "3.9980312",
+            "Longitude": "101.3930369"
+          }
+        },
+        "Published": "2023-02-27T09:00:25Z",
+        "Title": "Sungai Klah Hot Spring Park",
+        "Updated": "2023-02-27T09:00:25Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1835016,
+          4.4421983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17295540350314825159",
+        "Location": {
+          "Address": "No 3, lorong haji hussin, Kampung Jahang, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Lindalicious House Gopeng",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4421983",
+            "Longitude": "101.1835016"
+          }
+        },
+        "Published": "2023-02-27T08:59:39Z",
+        "Title": "Lindalicious House Gopeng",
+        "Updated": "2023-02-27T08:59:39Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.17356,
+          4.44893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5842103156846835823",
+        "Location": {
+          "Address": "Jln Dato' Marzuki, Kampung Gunung Panjang, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Gua Kandu",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4489300",
+            "Longitude": "101.1735600"
+          }
+        },
+        "Published": "2023-02-24T05:41:13Z",
+        "Title": "Gua Kandu",
+        "Updated": "2023-02-24T05:41:13Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.2015808,
+          4.4498643
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?q=Kampung+Pintu+Padang,+31600+Gopeng,+Perak,+Mal%C3%A1sia&ftid=0x31cafaf6b25e7f41:0x594d1d03df308f90",
+        "Location": {
+          "Geo Coordinates": {
+            "Latitude": "4.4498643",
+            "Longitude": "101.2015808"
+          }
+        },
+        "Published": "2023-02-24T05:40:21Z",
+        "Title": "Bukit Batu Putih, Kampung Pintu Padang, 31600 Gopeng, Perak, Malásia",
+        "Updated": "2023-02-24T05:40:21Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1928984,
+          4.4591304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2778068447577978776",
+        "Location": {
+          "Address": "Jalan Sungai Itek, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "HOGA, Gaharu Tea Valley Gopeng",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4591304",
+            "Longitude": "101.1928984"
+          }
+        },
+        "Published": "2023-02-24T05:40:12Z",
+        "Title": "HOGA, Gaharu Tea Valley Gopeng",
+        "Updated": "2023-02-24T05:40:12Z",
+        "marker": "other",
+        "category": "Tourist attraction"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.1876852,
+          4.4160094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12443511249248702114",
+        "Location": {
+          "Address": "Pusat Pelancongan Gua Tempurung,, 31600 Gopeng, Perak, Malaysia",
+          "Business Name": "Gua Tempurung",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.4160094",
+            "Longitude": "101.1876852"
+          }
+        },
+        "Published": "2023-02-24T05:38:57Z",
+        "Title": "Gua Tempurung",
+        "Updated": "2023-02-24T05:38:57Z",
+        "marker": "other",
+        "category": "Tourist attraction"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0871004,
+          4.5843628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17400627439518465162",
+        "Location": {
+          "Address": "123, Jalan Bharu, Off, Jalan Tokong, 31650 Ipoh, Perak, Malaysia",
+          "Business Name": "Bio Organic Natural Supply",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5843628",
+            "Longitude": "101.0871004"
+          }
+        },
+        "Published": "2023-02-18T05:51:53Z",
+        "Title": "Bio Organic Natural Supply",
+        "Updated": "2023-02-18T05:51:53Z",
+        "marker": "other",
+        "category": "Organic shop"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0767031,
+          4.5931491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3485789604639412647",
+        "Location": {
+          "Address": "7, Persiaran Bandar Timah, 31650 Ipoh, Perak, Malaysia",
+          "Business Name": "Sri Ananda Bahwan Restaurant (Ipoh)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5931491",
+            "Longitude": "101.0767031"
+          }
+        },
+        "Published": "2023-02-05T03:49:02Z",
+        "Title": "Sri Ananda Bahwan Restaurant (Ipoh)",
+        "Updated": "2023-02-05T03:49:02Z",
+        "marker": "food",
+        "category": "Indian restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -0.1433406,
+          50.8211293
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?q=50.821129,-0.143341",
+        "Location": {
+          "Geo Coordinates": {
+            "Latitude": "50.8211293",
+            "Longitude": "-0.1433406"
+          }
+        },
+        "Published": "2017-06-09T13:24:27Z",
+        "Title": "50.821129,-0.143341",
+        "Updated": "2023-01-30T07:02:16Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0846415,
+          4.6003858
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15272448453256303019",
+        "Location": {
+          "Address": "5 & 7, Jalan Lim Bo Seng, Kampung Jawa, 30300 Ipoh, Perak, Malaysia",
+          "Business Name": "Kampai Restaurant",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.6003858",
+            "Longitude": "101.0846415"
+          }
+        },
+        "Published": "2023-01-29T12:01:17Z",
+        "Title": "Kampai Restaurant",
+        "Updated": "2023-01-29T12:01:17Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0844844,
+          4.5930881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12191285639307253609",
+        "Location": {
+          "Address": "184A, Jalan Sultan Iskandar, Taman Jubilee, 30000 Ipoh, Perak, Malaysia",
+          "Business Name": "Gut Flora",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5930881",
+            "Longitude": "101.0844844"
+          }
+        },
+        "Published": "2023-01-29T07:34:08Z",
+        "Title": "Gut Flora",
+        "Updated": "2023-01-29T07:34:08Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0985291,
+          4.8055403
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1334453819544259486",
+        "Location": {
+          "Address": "684, Persiaran Muhibbah Jaya 1, Taman Muhibbah Jaya, 31100 Sungai Siput, Perak, Malaysia",
+          "Business Name": "Kaliani Restaurant",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8055403",
+            "Longitude": "101.0985291"
+          }
+        },
+        "Published": "2023-01-29T03:22:38Z",
+        "Title": "Kaliani Restaurant",
+        "Updated": "2023-01-29T03:22:38Z",
+        "marker": "food",
+        "category": "Indian restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          101.0861201,
+          4.5959008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6661432242267502525",
+        "Location": {
+          "Address": "AA, Lot3435N, Jubilee Park, 30450, Jalan Jubilee, Taman Jubilee, 30300 Ipoh, Perak, Malaysia",
+          "Business Name": "Beds In Garden Hostel",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.5959008",
+            "Longitude": "101.0861201"
+          }
+        },
+        "Published": "2023-01-28T09:35:24Z",
+        "Title": "Beds In Garden Hostel",
+        "Updated": "2023-01-28T09:35:24Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7385568,
+          4.8516872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=18278840182894052847",
+        "Location": {
+          "Address": "164 & 166, Jalan Taming Sari, 34000 Taiping, Perak, Malaysia",
+          "Business Name": "Sri Annapoorana Curry House",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8516872",
+            "Longitude": "100.7385568"
+          }
+        },
+        "Published": "2023-01-28T01:18:14Z",
+        "Title": "Sri Annapoorana Curry House",
+        "Updated": "2023-01-28T01:18:14Z",
+        "marker": "food",
+        "category": "Indian restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7495145,
+          4.8524883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16302671602377422189",
+        "Location": {
+          "Address": "Jalan Pekeliling, Taman Tasik Taiping, 34000 Taiping, Perak, Malaysia",
+          "Business Name": "Taiping Lake Gardens",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8524883",
+            "Longitude": "100.7495145"
+          }
+        },
+        "Published": "2023-01-27T10:08:19Z",
+        "Title": "Taiping Lake Gardens",
+        "Updated": "2023-01-27T10:08:19Z",
+        "marker": "outdoors",
+        "category": "Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7438941,
+          4.845992
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=10911636836929546563",
+        "Location": {
+          "Address": "Malaysia, Perak, Taiping, Kampung Jambu, Jalan Kampung Jambu 4, no4邮政编码: 34000",
+          "Business Name": "Moly Garden Organic Supplies",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8459920",
+            "Longitude": "100.7438941"
+          }
+        },
+        "Published": "2023-01-27T10:00:48Z",
+        "Title": "Moly Garden Organic Supplies",
+        "Updated": "2023-01-27T10:00:48Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7428258,
+          4.853218
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11432092064653215841",
+        "Location": {
+          "Address": "40, Jalan Kota, 34000 Taiping, Perak, Malaysia",
+          "Business Name": "Lotus vegetarian trading",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8532180",
+            "Longitude": "100.7428258"
+          }
+        },
+        "Published": "2023-01-27T06:49:03Z",
+        "Title": "Lotus vegetarian trading",
+        "Updated": "2023-01-27T06:49:03Z",
+        "marker": "food",
+        "category": "Vegetarian cafe and deli"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7389098,
+          4.8516725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8282075447895264194",
+        "Location": {
+          "Address": "161, Jalan Taming Sari, 34000 Taiping, Perak, Malaysia",
+          "Business Name": "Perniagaan Eng Hern - Polygon, Marin, Tern",
+          "Geo Coordinates": {
+            "Latitude": "4.8516725",
+            "Longitude": "100.7389098"
+          }
+        },
+        "Published": "2023-01-27T06:48:46Z",
+        "Title": "Perniagaan Eng Hern - Polygon, Marin, Tern",
+        "Updated": "2023-01-27T06:48:46Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.7424239,
+          4.8528204
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7196935705967710266",
+        "Location": {
+          "Address": "54, Jalan Kota, 34000 Taiping, Perak, Malaysia",
+          "Business Name": "Sojourn Beds & Cafe",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "4.8528204",
+            "Longitude": "100.7424239"
+          }
+        },
+        "Published": "2023-01-26T08:18:41Z",
+        "Title": "Sojourn Beds & Cafe",
+        "Updated": "2023-01-26T08:18:41Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.6757063,
+          5.0088928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2965060217752806834",
+        "Location": {
+          "Address": "A197, 34400 Simpang Empat Semanggol, Perak, Malaysia",
+          "Business Name": "Bukit Merah Orang Utan Island Foundation",
+          "Geo Coordinates": {
+            "Latitude": "5.0088928",
+            "Longitude": "100.6757063"
+          }
+        },
+        "Published": "2023-01-25T07:38:08Z",
+        "Title": "Bukit Merah Orang Utan Island Foundation",
+        "Updated": "2023-01-25T07:38:08Z",
+        "marker": "other",
+        "category": "Research foundation"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.4889492,
+          5.1283582
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7569143780288974418",
+        "Location": {
+          "Address": "No 1, Jalan Ria, 34200 Parit Buntar, Perak, Malaysia",
+          "Business Name": "K Garden Hotel Parit Buntar",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.1283582",
+            "Longitude": "100.4889492"
+          }
+        },
+        "Published": "2023-01-24T06:42:45Z",
+        "Title": "K Garden Hotel Parit Buntar",
+        "Updated": "2023-01-24T06:42:45Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.5480337,
+          5.1600434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=3810525941614128158",
+        "Location": {
+          "Address": "Jalan Taman Bukit Negeri, 14300 Nibong Tebal, Pulau Pinang, Malaysia",
+          "Business Name": "Taman Negeri Bukit Panchor, Pulau Pinang",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.1600434",
+            "Longitude": "100.5480337"
+          }
+        },
+        "Published": "2023-01-23T22:54:11Z",
+        "Title": "Taman Negeri Bukit Panchor, Pulau Pinang",
+        "Updated": "2023-01-23T22:54:11Z",
+        "marker": "outdoors",
+        "category": "State park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.3902151,
+          5.3841557
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14957799440819480470",
+        "Location": {
+          "Address": "69, Jalan Gan Chai Leng, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",
+          "Business Name": "Restoran Sri Suriya (Chai Leng Park)",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.3841557",
+            "Longitude": "100.3902151"
+          }
+        },
+        "Published": "2023-01-23T02:49:42Z",
+        "Title": "Restoran Sri Suriya (Chai Leng Park)",
+        "Updated": "2023-01-23T02:49:42Z",
+        "marker": "food",
+        "category": "South Indian restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.3301979,
+          5.4199914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15908350122833118611",
+        "Location": {
+          "Address": "111, Hutton Ln, Georgetown, 10050 George Town, Penang, Malaysia",
+          "Business Name": "111 Hutton Lane Hostel",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.4199914",
+            "Longitude": "100.3301979"
+          }
+        },
+        "Published": "2023-01-23T01:27:50Z",
+        "Title": "111 Hutton Lane Guesthouse",
+        "Updated": "2023-01-23T01:27:50Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.3281352,
+          5.4122027
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14648979271081413172",
+        "Location": {
+          "Address": "31A, Jalan Gurdwara, 10300 George Town, Pulau Pinang, Malaysia",
+          "Business Name": "Hin Bus Depot",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.4122027",
+            "Longitude": "100.3281352"
+          }
+        },
+        "Published": "2023-01-22T07:23:51Z",
+        "Title": "Hin Bus Depot",
+        "Updated": "2023-01-22T07:23:51Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.3306278,
+          5.4102083
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8615025324689008247",
+        "Location": {
+          "Address": "38, Lebuh Tye Sin, 10300 George Town, Pulau Pinang, Malaysia",
+          "Business Name": "Pinxin Vegan Cuisine",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.4102083",
+            "Longitude": "100.3306278"
+          }
+        },
+        "Published": "2023-01-22T06:18:52Z",
+        "Title": "Pinxin Vegan Cuisine",
+        "Updated": "2023-01-22T06:18:52Z",
+        "marker": "food",
+        "category": "Vegan restaurant"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          100.3401923,
+          5.4174205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9850834634404584628",
+        "Location": {
+          "Address": "82 A, Lebuh Penang, George Town, 10200 George Town, Pulau Pinang, Malaysia",
+          "Business Name": "Ren I Tang Heritage Inn",
+          "Country Code": "MY",
+          "Geo Coordinates": {
+            "Latitude": "5.4174205",
+            "Longitude": "100.3401923"
+          }
+        },
+        "Published": "2023-01-21T04:22:24Z",
+        "Title": "Ren I Tang Heritage Inn",
+        "Updated": "2023-01-21T04:22:24Z",
+        "marker": "other"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           100.2736126,
           5.3996413
         ],
@@ -23,7 +1435,8 @@
         "Published": "2023-01-20T12:34:43Z",
         "Title": "Kek Lok Si Temple",
         "Updated": "2023-01-20T12:34:43Z",
-        "marker": "other"
+        "marker": "other",
+        "category": "Buddhist temple"
       },
       "type": "Feature"
     },
@@ -118,7 +1531,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=11696745849964693209",
         "Location": {
           "Address": "10470 George Town, Penang, Malaysia",
-          "Business Name": "Moongate Trail PG",
+          "Business Name": "Moongate Trail PG (Jejak Moongate PG/மூங்கேட் டிரெயில் பிஜி)",
           "Country Code": "MY",
           "Geo Coordinates": {
             "Latitude": "5.4354516",
@@ -249,9 +1662,6 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=11643926114670302724",
         "Location": {
-          "Address": "375H, Chulia St, Georgetown, 10300 George Town, Penang, Malaysia",
-          "Business Name": "Neko Vegan House",
-          "Country Code": "MY",
           "Geo Coordinates": {
             "Latitude": "5.4179129",
             "Longitude": "100.3355414"
@@ -303,7 +1713,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=7501987815834570385",
         "Location": {
           "Address": "42, Jalan Nagor, 10050 George Town, Pulau Pinang, Malaysia",
-          "Business Name": "禪心素食料理",
+          "Business Name": "Zen Xin Vegetarian Restaurant",
           "Country Code": "MY",
           "Geo Coordinates": {
             "Latitude": "5.4210389",
@@ -407,9 +1817,6 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=1639479652457107522",
         "Location": {
-          "Address": "No 75, Gurney Dr, 10250 George Town, Penang, Malaysia",
-          "Business Name": "Vegie Cafe",
-          "Country Code": "MY",
           "Geo Coordinates": {
             "Latitude": "5.4331359",
             "Longitude": "100.3162007"
@@ -418,8 +1825,7 @@
         "Published": "2023-01-16T06:08:35Z",
         "Title": "Vegie Cafe",
         "Updated": "2023-01-16T06:08:35Z",
-        "marker": "food",
-        "category": "Vegetarian restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -504,20 +1910,20 @@
     {
       "geometry": {
         "coordinates": [
-          100.2157687,
-          5.4585788
+          100.2158584,
+          5.458466
         ],
         "type": "Point"
       },
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=18365134577005664330",
         "Location": {
-          "Address": "Rapid bus station, Caltex, Sebelah, Teluk Bahang, 11050 Balik Pulau, Pulau Pinang, Malaysia",
+          "Address": "Tepi jalan pulau asmara, Jalan Teluk Bahang, Teluk Bahang, 11050 Balik Pulau, Pulau Pinang, Malaysia",
           "Business Name": "Cafe Cendol Taman Rimba sebelah caltex teluk bahang bus rapid station",
           "Country Code": "MY",
           "Geo Coordinates": {
-            "Latitude": "5.4585788",
-            "Longitude": "100.2157687"
+            "Latitude": "5.4584660",
+            "Longitude": "100.2158584"
           }
         },
         "Published": "2023-01-14T11:08:59Z",
@@ -565,7 +1971,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=8071570186886131422",
         "Location": {
           "Address": "223 C, Jalan Burma, 10050 George Town, Pulau Pinang, Malaysia",
-          "Business Name": "Enso Boutique Spa",
+          "Business Name": "Areoma Reflexology Burma Road (Previously named Enso Boutique Spa)",
           "Country Code": "MY",
           "Geo Coordinates": {
             "Latitude": "5.4237620",
@@ -747,7 +2153,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=976521104113886158",
         "Location": {
-          "Address": "Gunung Keriang, 05150 Alor Setar, Kedah, Malaysia",
+          "Address": "58RG+9H, Jalan Gunung Keriang, Gunung Keriang, 05150 Alor Setar, Kedah, Malaysia",
           "Business Name": "Paddy Museum",
           "Country Code": "MY",
           "Geo Coordinates": {
@@ -852,7 +2258,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=10339152383917122069",
         "Location": {
           "Address": "V99X+93C, Mueang Phuket, Mueang Phuket District, Phuket 83000, Thailand",
-          "Business Name": "Khon Khon",
+          "Business Name": "Saphan Hin Market",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "7.8684477",
@@ -1070,8 +2476,7 @@
         "Published": "2023-01-06T12:43:59Z",
         "Title": "สลัดบาร์ 108 (Salad Bar 108)",
         "Updated": "2023-01-06T12:43:59Z",
-        "marker": "cafe",
-        "category": "ร้านอาหาร"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1279,8 +2684,7 @@
         "Published": "2022-12-29T11:09:13Z",
         "Title": "FitGeeks Rawai - Healthy Pit Stop!!",
         "Updated": "2022-12-29T11:09:13Z",
-        "marker": "food",
-        "category": "Restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1306,8 +2710,7 @@
         "Published": "2022-12-28T12:05:46Z",
         "Title": "Go Vegan Cafe",
         "Updated": "2022-12-28T12:05:46Z",
-        "marker": "cafe",
-        "category": "ร้านอาหาร"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1359,8 +2762,7 @@
         "Published": "2022-12-25T08:18:51Z",
         "Title": "The vegan table",
         "Updated": "2022-12-25T08:18:51Z",
-        "marker": "food",
-        "category": "Vegan restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1386,8 +2788,7 @@
         "Published": "2022-12-22T12:16:55Z",
         "Title": "Ryn - Authentic Tea & Slow Drop Coffee",
         "Updated": "2022-12-22T12:16:55Z",
-        "marker": "cafe",
-        "category": "Tea house"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1413,8 +2814,7 @@
         "Published": "2022-12-22T05:01:50Z",
         "Title": "Acupros Phuket TCM Clinic คลินิกฝังเข็ม ครอบแก้ว ยาจีน ซอยตาเอียด ภูเก็ต",
         "Updated": "2022-12-22T05:01:50Z",
-        "marker": "other",
-        "category": "คลินิกฝังเข็ม"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1440,8 +2840,7 @@
         "Published": "2022-12-20T09:49:57Z",
         "Title": "REBEL Rock Climbing",
         "Updated": "2022-12-20T09:49:57Z",
-        "marker": "outdoors",
-        "category": "Rock climbing gym"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1467,8 +2866,7 @@
         "Published": "2022-12-20T09:46:34Z",
         "Title": "Tattoo Jane Phuket",
         "Updated": "2022-12-20T09:46:34Z",
-        "marker": "other",
-        "category": "Tattoo shop"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1493,8 +2891,7 @@
         "Published": "2022-12-18T03:15:47Z",
         "Title": "Thai Cooking With Judy",
         "Updated": "2022-12-18T03:15:47Z",
-        "marker": "tourism",
-        "category": "Cooking school"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1546,8 +2943,7 @@
         "Published": "2022-12-16T06:41:58Z",
         "Title": "Baan Chalong Nom Jeen Restaurant",
         "Updated": "2022-12-16T06:41:58Z",
-        "marker": "food",
-        "category": "Thai restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1573,8 +2969,7 @@
         "Published": "2022-12-15T13:32:52Z",
         "Title": "We Cafe",
         "Updated": "2022-12-15T13:32:52Z",
-        "marker": "food",
-        "category": "Restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1626,8 +3021,7 @@
         "Published": "2022-12-15T04:13:13Z",
         "Title": "HEALTHY MANIA RAW VEGAN FOOD",
         "Updated": "2022-12-15T04:13:13Z",
-        "marker": "food",
-        "category": "Vegan restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1653,8 +3047,7 @@
         "Published": "2022-12-14T07:52:18Z",
         "Title": "Korean Restaurant",
         "Updated": "2022-12-14T07:52:18Z",
-        "marker": "food",
-        "category": "Korean restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -1670,7 +3063,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=1519597283760720178",
         "Location": {
           "Address": "Clubhouse at Land & House Park, 26/8, Pattana Soi 8, Chalong, Mueang Phuket, Phuket 83130, Thailand",
-          "Business Name": "The Yoga Shala Phuket",
+          "Business Name": "The Yoga Shala",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "7.8412923",
@@ -1748,7 +3141,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=16092330437464169878",
         "Location": {
           "Address": "R8PX+QC5, Chalong, Mueang Phuket District, Phuket 83000, Thailand",
-          "Business Name": "สายธารบุญ Vegan restaurant.",
+          "Business Name": "ร้านอาหารเจสายธารบุญ Vegan restaurant.",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "7.8368802",
@@ -1774,7 +3167,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=6094505202388651628",
         "Location": {
           "Address": "10/1 Laemsai Road Tumbon, Karon, Muang, Phuket 83100, Thailand",
-          "Business Name": "เสื่อผืน หมอนใบ A Blanket & A Pillow",
+          "Business Name": "A Blanket & A Pillow",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "7.8280573",
@@ -1825,7 +3218,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=13281185015938441524",
         "Location": {
-          "Address": "RC43+MWV, 4129, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
+          "Address": "4129, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
           "Business Name": "Panwa Roti",
           "Country Code": "TH",
           "Geo Coordinates": {
@@ -1878,7 +3271,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=13867456511470216286",
         "Location": {
           "Address": "35 Thep Anusorn Road, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
-          "Business Name": "ตลาดนัดวัดเทพนิมิตร",
+          "Business Name": "ตลาดนัดวัดเทพนิมิตร ตลาดนัดต้องชม ภูเก็ต สถานที่ขายทั้งอาหารสด เสื้อผ้า ผัก ผลไม้ และเบ็ดเตล็ดในราคาย่อมเยา",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "7.8617062",
@@ -2182,7 +3575,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=14043517792206319233",
         "Location": {
-          "Address": "F8WF+V9Q Phang Nga Bay, Rawai, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand",
+          "Address": "F8WF+V9Q Phang Nga Bay, Rawai, 83100, Thailand",
           "Business Name": "Banana Bay",
           "Country Code": "TH",
           "Geo Coordinates": {
@@ -2200,8 +3593,8 @@
     {
       "geometry": {
         "coordinates": [
-          98.3838139,
-          7.8434191
+          98.3838017,
+          7.8434154
         ],
         "type": "Point"
       },
@@ -2212,8 +3605,8 @@
           "Business Name": "ติ่มซำบ้านบ่อแร่",
           "Country Code": "TH",
           "Geo Coordinates": {
-            "Latitude": "7.8434191",
-            "Longitude": "98.3838139"
+            "Latitude": "7.8434154",
+            "Longitude": "98.3838017"
           }
         },
         "Published": "2022-11-19T02:20:46Z",
@@ -2470,8 +3863,7 @@
         "Published": "2022-11-04T11:47:57Z",
         "Title": "We Cafe",
         "Updated": "2022-11-04T11:47:57Z",
-        "marker": "food",
-        "category": "Restaurant"
+        "marker": "other"
       },
       "type": "Feature"
     },
@@ -2897,7 +4289,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=7294896031337093936",
         "Location": {
           "Address": "12 Sukhumvit Soi 27, Klongtoey Nua, Watthana, Bangkok 10110, Thailand",
-          "Business Name": "Kaek Kao Kua - แขกเข้าครัว (Vegan)",
+          "Business Name": "Kaek Kao Kua - แขก​เข้าครัว​ (Vegan Restaurant)",
           "Country Code": "TH",
           "Geo Coordinates": {
             "Latitude": "13.7363348",
@@ -3001,7 +4393,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=5911834457980862958",
         "Location": {
           "Address": "Doha, Qatar",
-          "Business Name": "Abu Shariha Restaurant",
+          "Business Name": "Abo Shariha Restaurant.souq waqief",
           "Country Code": "QA",
           "Geo Coordinates": {
             "Latitude": "25.2860314",
@@ -4494,8 +5886,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3240619,
-          48.8360711
+          2.3241331,
+          48.8361109
         ],
         "type": "Point"
       },
@@ -4506,8 +5898,8 @@
           "Business Name": "Restaurant Île de la Réunion",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8360711",
-            "Longitude": "2.3240619"
+            "Latitude": "48.8361109",
+            "Longitude": "2.3241331"
           }
         },
         "Published": "2022-06-25T08:26:26Z",
@@ -4886,7 +6278,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=4659596509401340858",
         "Location": {
           "Address": "57 Rue du Fossé-des-Tanneurs, 67000 Strasbourg, France",
-          "Business Name": "AvoBowl",
+          "Business Name": "Avobowl",
           "Country Code": "FR",
           "Geo Coordinates": {
             "Latitude": "48.5819997",
@@ -5058,8 +6450,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3596401,
-          48.8710448
+          2.3596596,
+          48.8710383
         ],
         "type": "Point"
       },
@@ -5070,8 +6462,8 @@
           "Business Name": "Holybelly",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8710448",
-            "Longitude": "2.3596401"
+            "Latitude": "48.8710383",
+            "Longitude": "2.3596596"
           }
         },
         "Published": "2022-05-15T08:31:22Z",
@@ -5876,7 +7268,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=1867885067186562875",
         "Location": {
-          "Address": "Calle De Mosquera, 5, 29008 Málaga, Spain",
+          "Address": "C. Mosquera, 5, 29008 Málaga, Spain",
           "Business Name": "Taberna Cofrade Las Merchanas",
           "Country Code": "ES",
           "Geo Coordinates": {
@@ -6073,8 +7465,8 @@
     {
       "geometry": {
         "coordinates": [
-          -3.5972434,
-          37.17675
+          -3.59713,
+          37.1768396
         ],
         "type": "Point"
       },
@@ -6085,8 +7477,8 @@
           "Business Name": "La Buena Vida",
           "Country Code": "ES",
           "Geo Coordinates": {
-            "Latitude": "37.1767500",
-            "Longitude": "-3.5972434"
+            "Latitude": "37.1768396",
+            "Longitude": "-3.5971300"
           }
         },
         "Published": "2022-03-05T12:53:56Z",
@@ -6255,8 +7647,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3460808,
-          48.8660965
+          2.3460588,
+          48.8660894
         ],
         "type": "Point"
       },
@@ -6267,8 +7659,8 @@
           "Business Name": "Les Écuries",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8660965",
-            "Longitude": "2.3460808"
+            "Latitude": "48.8660894",
+            "Longitude": "2.3460588"
           }
         },
         "Published": "2022-02-13T20:29:29Z",
@@ -7645,7 +9037,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=9843836746353990802",
         "Location": {
-          "Address": "C/ de Casanova, 94, 08011 Barcelona, Spain",
+          "Address": "C. de Casanova, 94, 08011 Barcelona, Spain",
           "Business Name": "La Patsa Lab",
           "Country Code": "ES",
           "Geo Coordinates": {
@@ -7867,7 +9259,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=5532817059855295453",
         "Location": {
-          "Address": "Piazza Federico di Svevia, 21, 95121 Catania CT, Italy",
+          "Address": "P.za Federico di Svevia, 21, 95121 Catania CT, Italy",
           "Business Name": "Castello Ursino",
           "Country Code": "IT",
           "Geo Coordinates": {
@@ -8023,7 +9415,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=18288725204398465677",
         "Location": {
-          "Address": "Piazza Federico di Svevia, 100, 95121 Catania CT, Italy",
+          "Address": "P.za Federico di Svevia, 100, 95121 Catania CT, Italy",
           "Business Name": "Il Borgo di Federico",
           "Country Code": "IT",
           "Geo Coordinates": {
@@ -8653,9 +10045,6 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=10245661832883623344",
         "Location": {
-          "Address": "37 Rue au Maire, 75003 Paris, France",
-          "Business Name": "Coin de Paradis",
-          "Country Code": "FR",
           "Geo Coordinates": {
             "Latitude": "48.8646702",
             "Longitude": "2.3557207"
@@ -9118,8 +10507,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3704772,
-          48.8344235
+          2.3708049,
+          48.8342476
         ],
         "type": "Point"
       },
@@ -9129,8 +10518,8 @@
           "Address": "55 Bd Vincent Auriol, 75013 Paris, France",
           "Business Name": "Anticafé",
           "Geo Coordinates": {
-            "Latitude": "48.8344235",
-            "Longitude": "2.3704772"
+            "Latitude": "48.8342476",
+            "Longitude": "2.3708049"
           }
         },
         "Published": "2020-11-08T14:39:20Z",
@@ -9169,8 +10558,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.355172,
-          48.8418416
+          2.3541804,
+          48.8424829
         ],
         "type": "Point"
       },
@@ -9181,8 +10570,8 @@
           "Business Name": "Grande Mosquée de Paris",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8418416",
-            "Longitude": "2.3551720"
+            "Latitude": "48.8424829",
+            "Longitude": "2.3541804"
           }
         },
         "Published": "2020-11-08T14:35:50Z",
@@ -9221,20 +10610,20 @@
     {
       "geometry": {
         "coordinates": [
-          2.3631999,
-          48.8153342
+          2.362835,
+          48.8156637
         ],
         "type": "Point"
       },
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=7575941540416736667",
         "Location": {
-          "Address": "24 Rue Pasteur, 94270 Le Kremlin-Bicêtre, France",
+          "Address": "14-16 Rue Voltaire, 94270 Le Kremlin-Bicêtre, France",
           "Business Name": "Epitech",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8153342",
-            "Longitude": "2.3631999"
+            "Latitude": "48.8156637",
+            "Longitude": "2.3628350"
           }
         },
         "Published": "2020-09-25T16:38:10Z",
@@ -9507,8 +10896,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.1760106,
-          41.3825121
+          2.1760392,
+          41.382531
         ],
         "type": "Point"
       },
@@ -9519,8 +10908,8 @@
           "Business Name": "Salterio",
           "Country Code": "ES",
           "Geo Coordinates": {
-            "Latitude": "41.3825121",
-            "Longitude": "2.1760106"
+            "Latitude": "41.3825310",
+            "Longitude": "2.1760392"
           }
         },
         "Published": "2020-07-17T17:33:58Z",
@@ -9618,7 +11007,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=532604019038101392",
         "Location": {
-          "Address": "C. del Baluard, 52, 08003 Barcelona, Spain",
+          "Address": "C/ del Baluard, 52, 08003 Barcelona, Spain",
           "Business Name": "OAKBERRY Açaí",
           "Country Code": "ES",
           "Geo Coordinates": {
@@ -9711,8 +11100,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3517091,
-          48.861984
+          2.351708,
+          48.8619736
         ],
         "type": "Point"
       },
@@ -9723,8 +11112,8 @@
           "Business Name": "Le 153",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8619840",
-            "Longitude": "2.3517091"
+            "Latitude": "48.8619736",
+            "Longitude": "2.3517080"
           }
         },
         "Published": "2020-02-26T22:36:43Z",
@@ -9890,8 +11279,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3743747,
-          48.8667779
+          2.3744867,
+          48.8667023
         ],
         "type": "Point"
       },
@@ -9902,8 +11291,8 @@
           "Business Name": "L'Alimentation Générale",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8667779",
-            "Longitude": "2.3743747"
+            "Latitude": "48.8667023",
+            "Longitude": "2.3744867"
           }
         },
         "Published": "2020-01-19T11:56:11Z",
@@ -9976,9 +11365,6 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=5471297730831309118",
         "Location": {
-          "Address": "93 Marylebone High St, London W1U 4RD, United Kingdom",
-          "Business Name": "The Marylebone",
-          "Country Code": "GB",
           "Geo Coordinates": {
             "Latitude": "51.5199034",
             "Longitude": "-0.1519121"
@@ -10714,31 +12100,6 @@
     {
       "geometry": {
         "coordinates": [
-          4.545036,
-          52.405584
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Google Maps URL": "http://maps.google.com/?cid=5904577156434678273",
-        "Location": {
-          "Address": "Zeeweg 94 - tent 7, 2051 EB Netherlands",
-          "Business Name": "Woodstock'69",
-          "Geo Coordinates": {
-            "Latitude": "52.4055840",
-            "Longitude": "4.5450360"
-          }
-        },
-        "Published": "2019-08-07T16:23:54Z",
-        "Title": "Woodstock'69",
-        "Updated": "2019-08-07T16:23:54Z",
-        "marker": "other"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           4.8845095,
           52.3806594
         ],
@@ -11116,8 +12477,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.3099211,
-          48.8457834
+          2.309863,
+          48.8457592
         ],
         "type": "Point"
       },
@@ -11128,8 +12489,8 @@
           "Business Name": "Le Cristal",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8457834",
-            "Longitude": "2.3099211"
+            "Latitude": "48.8457592",
+            "Longitude": "2.3098630"
           }
         },
         "Published": "2019-06-06T12:33:50Z",
@@ -11552,7 +12913,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=11608039888759793091",
         "Location": {
           "Address": "Junín 1760, C1113 CABA, Argentina",
-          "Business Name": "Recoleta Cemetery",
+          "Business Name": "Cementerio de la Recoleta",
           "Country Code": "AR",
           "Geo Coordinates": {
             "Latitude": "-34.5874834",
@@ -12182,7 +13543,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=17796100199849846286",
         "Location": {
           "Address": "Guatapé, Antioquia, Colombia",
-          "Business Name": "El Peñón de Guatapé",
+          "Business Name": "El Peñól de Guatapé",
           "Country Code": "CO",
           "Geo Coordinates": {
             "Latitude": "6.2199453",
@@ -12286,7 +13647,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=9251249317813364209",
         "Location": {
           "Address": "Main St, Ocho Rios, Jamaica",
-          "Business Name": "Dunn's River Falls & Park",
+          "Business Name": "The World Famous Dunn's River Falls & Park",
           "Country Code": "JM",
           "Geo Coordinates": {
             "Latitude": "18.4154172",
@@ -12537,7 +13898,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=17835967598843153525",
         "Location": {
           "Address": "Dg. 40 #7-40, Bogotá, Colombia",
-          "Business Name": "Mundano Coffee Shop ☕",
+          "Business Name": "Mundano Coffee Shop",
           "Country Code": "CO",
           "Geo Coordinates": {
             "Latitude": "4.6263130",
@@ -14110,7 +15471,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=1741898044593168525",
         "Location": {
           "Address": "Feiticeira, Ilhabela - State of São Paulo, 11630-000, Brazil",
-          "Business Name": "3 waterfall tumbles",
+          "Business Name": "Cachoeira 3 Tombos",
           "Geo Coordinates": {
             "Latitude": "-23.8542608",
             "Longitude": "-45.4056214"
@@ -14475,19 +15836,20 @@
     {
       "geometry": {
         "coordinates": [
-          -48.4332656,
-          -27.6023406
+          -48.4356486,
+          -27.6031314
         ],
         "type": "Point"
       },
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=7290297330161033978",
         "Location": {
-          "Address": "Mole Beach, Florianópolis - State of Santa Catarina, Brazil",
+          "Address": "Rod. Jorn. Manoel de Menezes, 1227 - Praia Mole, Florianópolis - SC, 88061-700, Brazil",
           "Business Name": "Mole Beach",
+          "Country Code": "BR",
           "Geo Coordinates": {
-            "Latitude": "-27.6023406",
-            "Longitude": "-48.4332656"
+            "Latitude": "-27.6031314",
+            "Longitude": "-48.4356486"
           }
         },
         "Published": "2018-02-07T12:55:03Z",
@@ -14762,7 +16124,7 @@
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=7685058437952602512",
         "Location": {
-          "Address": "Gral. Flores 440, 70000 Col Del Sacramento, Departamento de Colonia, Uruguay",
+          "Address": "Gral. Flores 440, 70000 Col. del Sacramento, Departamento de Colonia, Uruguay",
           "Business Name": "Viajero Hostel Colonia",
           "Country Code": "UY",
           "Geo Coordinates": {
@@ -15310,20 +16672,20 @@
     {
       "geometry": {
         "coordinates": [
-          -72.5449629,
-          -13.1631412
+          -72.4973215,
+          -13.2263308
         ],
         "type": "Point"
       },
       "properties": {
         "Google Maps URL": "http://maps.google.com/?cid=4183904589858216487",
         "Location": {
-          "Address": "08680, Peru",
+          "Address": "Peru",
           "Business Name": "Machu Picchu",
           "Country Code": "PE",
           "Geo Coordinates": {
-            "Latitude": "-13.1631412",
-            "Longitude": "-72.5449629"
+            "Latitude": "-13.2263308",
+            "Longitude": "-72.4973215"
           }
         },
         "Published": "2017-10-12T04:42:17Z",
@@ -15846,32 +17208,6 @@
     {
       "geometry": {
         "coordinates": [
-          -0.1433406,
-          50.8211293
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "Google Maps URL": "http://maps.google.com/?cid=11742784232228988043",
-        "Location": {
-          "Address": "9-12 Middle St, Brighton BN1 1AL, United Kingdom",
-          "Business Name": "Sticky Mike's Frog Bar",
-          "Country Code": "GB",
-          "Geo Coordinates": {
-            "Latitude": "50.8211293",
-            "Longitude": "-0.1433406"
-          }
-        },
-        "Published": "2017-06-09T13:24:27Z",
-        "Title": "Sticky Mike's Frog Bar",
-        "Updated": "2017-06-09T13:24:27Z",
-        "marker": "other"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           2.1911316,
           41.3781702
         ],
@@ -15907,7 +17243,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=14269125609970007446",
         "Location": {
           "Address": "C/ del Parlament, 39, 08015 Barcelona, Spain",
-          "Business Name": "Federal Cafe",
+          "Business Name": "Federal Cafè",
           "Country Code": "ES",
           "Geo Coordinates": {
             "Latitude": "41.3769204",
@@ -16413,8 +17749,8 @@
     {
       "geometry": {
         "coordinates": [
-          2.4018366,
-          48.8510284
+          2.4018614,
+          48.8511248
         ],
         "type": "Point"
       },
@@ -16425,8 +17761,8 @@
           "Business Name": "Les pères populaires",
           "Country Code": "FR",
           "Geo Coordinates": {
-            "Latitude": "48.8510284",
-            "Longitude": "2.4018366"
+            "Latitude": "48.8511248",
+            "Longitude": "2.4018614"
           }
         },
         "Published": "2016-11-16T09:03:52Z",
@@ -17027,7 +18363,7 @@
         "Google Maps URL": "http://maps.google.com/?cid=9351911003534731852",
         "Location": {
           "Address": "Schwarzenbergpl. 4, 1030 Wien, Austria",
-          "Business Name": "House of Industry, Niederoesterreich Palace",
+          "Business Name": "House of Industry,",
           "Country Code": "AT",
           "Geo Coordinates": {
             "Latitude": "48.1998422",
